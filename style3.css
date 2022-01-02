@@ -1,0 +1,66 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+.container, .header, .menu, .main, .footer, .logo {
+	width: 100%;
+}
+.menu{
+	display: flex;
+	background-color: #3486eb;
+}
+.menu ul{
+	list-style-type: none;
+    display: flex;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+	
+}
+.menu ul li{
+padding: 20px;
+color: white;
+}
+.menu ul li:hover{
+	background-color: #676b61;
+}
+.menu .menu-icon{
+	float: left;
+	padding: 15px;
+}
+.menu .menu-search{
+    font-size: 16px;
+	padding: 8px 5px;
+	margin-top: 10px;
+	margin-right: 10px;
+	height: 20px;
+	width: 200px;
+
+}
+.main .main-content{
+	width: 70%;
+	float: left;
+}
+.main .menu-right{
+	width: 30%;
+	float: left;
+}
+.row{
+	width: 100%;
+	display: flex;
+}
+.row .col-1{
+	width: calc(100%/3);
+}
+.item-1{
+	display: flex;
+}
+.item-1 label{
+	padding: 10px;
+}
+.item-2{
+	display: flex;
+}
+.item-2 label{
+	padding: 10px;
+}
